@@ -49,8 +49,8 @@ class App extends Component {
       <div>
       <Wrapper>
       <div className="container">
-            <h1 className="display-3"><center>Clicky Game!</center></h1>
-            <h4><center>Click on an Image to begin</center></h4>
+            <h3 className="display-3"><center>Clicky Game!</center></h3>
+            <h4><center>Click on an Image to begin...</center></h4>
           </div>
         <Header score={this.state.score} highscore={this.state.highscore}></Header>
         {this.state.cards.map(card => (
